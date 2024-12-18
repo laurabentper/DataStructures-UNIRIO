@@ -1,0 +1,34 @@
+Q1- a) O(n + m)
+    b) O(n^2)
+    c) O(n log n)
+
+Q2- a) Termo dominante: 0.001n^5           / O(n^5)
+    b) Termo dominante: 50n log10n         / O(n log10(n))
+    c) Termo dominante: 2.5n^1.75          / O(n^1.75)
+    d) Termo dominante: n^2 log2n          / O(n^2 log2(n))
+    e) Termo dominante: n log2n            / O(n log2(n))
+    f) Termo dominante: 3 log8 n           / O(log2(n))
+    g) Termo dominante: 0.01n^2            / O(n^2)
+    h) Termo dominante: 100n^2             / O(n^2)
+    i) Termo dominante: 0.5n^1.25          / O(n^1.25)
+    j) Termo dominante: n(log2 n)^2        / O(n(log2(n))^2)
+    k) Termo dominante: n^3                / O(n^3)
+    l) Termo dominante: 0.003 log4 n       / O(log n)
+
+Q3- i) A complexidade é O(n), pois no pior caso o algoritmo terá que realizar uma comparação para cada posição do vetor,
+ logo, o número total de comparações é proporcional ao tamanho do vetor, o que resulta em uma complexidade linear.
+
+    ii) A complexidade é O(n), pois o algoritmo é idêntico ao algoritmo i), apenas com um for no lugar do while.
+
+    iii) A complexidade é O(log2 n), pois se trata de um algoritmo de busca binária onde o espaço de busca é reduzido
+    pela metade a cada iteração, levando a um número máximo de comparações equivalente ao logaritmo do número de
+    elementos do vetor.
+
+Q5- A complexidade assintótica é O(n^2), pois o algoritmo realiza n - 1 iterações no loop de fora e n - i iterações no
+loop de dentro, onde i é igual ao índice do loop de fora. Logo, o número total de iterações é:
+                            (n-1) * (n-1) = n^2 - 2n +1.
+Ignorando os termos de menor grau, chegamos a conclusão que a função possui crescimento quadrático à medida que n tende
+ao infinito.
+
+
+
