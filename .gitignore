@@ -1,0 +1,77 @@
+# Compilação de arquivos Java
+*.class
+
+# Logs de execução
+*.log
+
+# Diretórios de compilação
+/bin/
+*/out/
+*/build/
+
+# Arquivos do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Configurações específicas do IntelliJ
+# (opcional, caso compartilhe configurações do projeto, mantenha a pasta `.idea` sem incluir arquivos específicos)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/libraries/
+
+# Configuração do sistema operacional
+.DS_Store         # MacOS
+Thumbs.db         # Windows
+
+# Arquivos de pacotes e distribuições
+*.jar
+*.war
+*.ear
+
+# Outros arquivos temporários
+*.tmp
+*.swp
+*.bak
+*.swo
+
+# Configurações do Maven e Gradle
+.mvn/
+target/
+build/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+*.class
+*.jar
+*.war
+*.ear
+
+# Diretórios e arquivos do Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Arquivos de IDEs genéricas
+*.idea/
+*.vscode/
+*.project
+*.classpath
+*.settings/
+*.factorypath
+
+# Arquivos de teste gerados
+*.coverage
+*.eml
+
+# Arquivos do Java para corretores de bugs
+hs_err_pid*
+replay_pid*
+
+# Outros arquivos que podem ser irrelevantes
+*.env
+*.env.local
+*.log
