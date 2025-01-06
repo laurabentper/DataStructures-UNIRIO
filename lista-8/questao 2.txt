@@ -1,0 +1,5 @@
+2) a) Não é uma árvore rubro-negra pois viola a propriedade que diz que todos os caminhos de um nó até um nó nulo devem ter a mesma quantidade de nós pretos. Neste caso, a árvore não respeita essa propriedade, pois o caminho da raiz até o nó nulo à esquerda tem zero nó preto, enquanto o caminho da raiz até o nó nulo à direita tem dois nós pretos.
+
+b) É uma árvore rubro-negra.
+
+c) É uma árvore rubro-negra.
