@@ -1,0 +1,47 @@
+1) a)   BST                                     RedBlackBST
+       
+        70                                         19(P)
+       /  \                                      /       \
+     19    89                                13(V)        89(P)
+    /                                        /  \         /
+  11                                    11(P)   17(P)   70(V)
+    \
+    13
+      \
+      17
+
+- A árvore binária tem altura igual a 4 e está desbalanceada, enquanto a árvore rubro-negra tem altura igual a 2 (altura negra igual a 1) e está balanceada.
+
+
+b)     BST                                         RedBlackBST
+
+       23                                             23(P)
+     /    \                                        /         \
+    15     41                                 13(P)           41(P)
+   /      /  \                               /    \          /    \
+  11     38   50                         11(P)    15(P)    38(P)   50(P)
+    \                                             /
+    13                                        14(V)
+      \
+      14
+
+- Novamente, a árvore binaria tem altura igual a 4 e está desbalanceada, enquanto a árvore rubro-negra tem altura igual a 3 (altura negra igual a 2) e está balanceada.
+
+
+c)     BST                                      RedBlackBST
+
+        1                                           4(P)
+         \                                        /      \
+          2                                   2(P)        6(P)
+           \                                 /   \        /   \
+            3                             1(P)   3(P)   5(P)   7(P)
+             \
+              4
+               \
+                5
+                 \
+                  6
+                   \
+                    7
+
+- A árvore binária está completamente degenerada, formando uma cadeia linear de altura 6. Já a árvore rubro-negra se mantém balanceada, conservando a altura 2.
